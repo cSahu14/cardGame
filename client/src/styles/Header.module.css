@@ -1,0 +1,43 @@
+.headerDiv {
+    background-color: #003580;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.headerItems {
+    margin-left: 20px;
+}
+
+.avatar {
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.authBtn {
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
